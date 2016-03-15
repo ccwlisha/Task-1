@@ -105,5 +105,17 @@
                    </tr>
                 </tbody>
               </table>
-			  <h2>这里以后是一个侧栏，这是侧栏的标题</h2>
-			  <h2>侧栏注册窗口标题</h2>
+	    </div>
+		<div id="侧栏">
+		      <h2>这里以后是一个侧栏，这是侧栏的标题</h2>
+		      <h2>侧栏注册窗口标题</h2>
+		      <form>
+                            <label for="邮箱地址">请输入邮箱地址:</label>
+				  <input type="text" name="邮箱地址" placeholder="这是一个文本输入框"/>
+		            <p>邮箱地址按要求格式输入</p>
+                            <label for="密码">请输入密码:</label>
+				  <input type="password" name="密码" placeholder="这是一个文本输入框"/>
+		            <label for="重复密码">请重复输入密码:</label>
+				  <input type="password" name="密码" placeholder="这是一个文本输入框"/>
+			    <p>密码请为6-16位英文数字</p>
+                      </form>  
