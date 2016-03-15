@@ -110,12 +110,46 @@
 		      <h2>这里以后是一个侧栏，这是侧栏的标题</h2>
 		      <h2>侧栏注册窗口标题</h2>
 		      <form>
-                            <label for="邮箱地址">请输入邮箱地址:</label>
+                  <label for="邮箱地址">请输入邮箱地址:</label>
 				  <input type="text" name="邮箱地址" placeholder="这是一个文本输入框"/>
-		            <p>邮箱地址按要求格式输入</p>
-                            <label for="密码">请输入密码:</label>
+				  <p>邮箱地址按要求格式输入</p>
+                  <label for="密码">请输入密码:</label>
 				  <input type="password" name="密码" placeholder="这是一个文本输入框"/>
-		            <label for="重复密码">请重复输入密码:</label>
+				  <label for="重复密码">请重复输入密码:</label>
 				  <input type="password" name="密码" placeholder="这是一个文本输入框"/>
-			    <p>密码请为6-16位英文数字</p>
-                      </form>  
+				  <p>密码请为6-16位英文数字</p>
+              </form>  
+              <form action="save.php" method="post" >
+                  <label>性别:</label>
+                  <label>男</label>
+                  <input type="radio" value="1"  name="gender" />
+                  <label>女</label>
+                  <input type="radio" value="2"  name="gender" />
+              </form>
+              <form>
+                  <label>城市:</label>
+                     <select>
+                           <option value="北京" selected="selected">北京</option>
+                           <option value="上海">上海</option>
+                           <option value="苏州">苏州</option>
+                           <option value="南京">南京</option>
+                     </select>
+              </form>
+              <form>
+                  <label>爱好:</label>
+                  <label>运动</label>
+                  <input type="checkbox" value="1"  name="gender" />
+                  <label>艺术</label>
+                  <input type="checkbox" value="2"  name="gender" />
+				  <label>科学</label>
+                  <input type="checkbox" value="2"  name="gender" />
+              </form>
+			  <form>
+			      <label>个人描述：</label>
+                      <textarea cols="20" rows="10">这是一个多行输入框，请输入你的个人描述</textarea>
+                      <input type="submit" value="确定提交"  name="submit" />
+			  </form>
+		</div>
+		<footer>版权所有&ccw;</footer>
+	</body>
+</htlm>       
